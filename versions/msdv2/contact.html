@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html style="overflow-y: hidden;">
+    <head>
+        <meta charset="utf-8" />
+        <title>Ma souris d'ordinateur</title>
+		      <link id="cssTag" rel="stylesheet" href="css/style.css" />
+    </head>
+    <body>
+    	<header>
+			<a id="logo" href="index.html">
+				<img id="imglogo" alt="Ma souris d'ordinateur" src="/img/msdcolorpastel.png"/>
+			</a>
+      <h1>Ma souris d'ordinateur</h1>
+			<a id="lightMode">
+				<img id="imgLightMode" alt="darkMode" src="/img/contrasteblc.png"/>
+			</a>
+
+			<a id="openNav">
+				<div id="burger"></div>
+			</a>
+
+			<nav id="hiddenNav">
+				<ul id="burgerList" style="visibility: hidden;">
+					<li><a class="navLien" href="/index.html">Profiling</a></li>
+					<li><a class="navLien" href="/approcheProfilaire.html">Approche profilaire</a></li>
+				<!--
+					<li><a class="navLien" href="/partenaires.html">Partenaires</a></li>
+        -->
+				</ul>
+			</nav>
+			<div id="hideDiv"></div>
+        </header>
+        <section>
+          <form id="nousContacter" action="/postMessage" method="post">
+            <h2 style="align-self: flex-start; flex-basis: 100%;">Nous contacter</h2>
+            <label class="contactLabel">Mail :</label>
+            <input class="contactInput" type="email" id="mail" pattern="/(^[A-Za-z]+)+@([a-zA-Z]{2,})+\.([a-zA-Z]{2,})/g" required>
+            <br>
+            <label class="contactLabel">Objet :</label>
+            <input class="contactInput" type="text" name="objet" id="objet" required>
+            <br>
+            <label class="contactLabel">Message :</label>
+            <br>
+            <textarea id="message" name="message" minlenght="100" maxlength="2500" cols="80" rows="10" required style="flex-basis: 60%; margin-left:-4%;"></textarea>
+            <br>
+            <input style="flex-basis: 18%; margin-top:2%;" type="submit" name="submit" id="submit" required>
+          </form>
+		</section>
+		<footer>
+				<a class="reseaux"><img class="imgreseaux" alt="twitter" src="/img/twittercolorpastel.png"/></a>
+				<a class="reseaux"><img class="imgreseaux" alt="instagramm" src="/img/instacolorpastel.png"/></a>
+				<a class="reseaux"><img class="imgreseaux" alt="linkedin" src="/img/lkincolorpastel.png"/></a>
+                <p id="copyrights">Droits réservés:
+                <a class="lienPage" href="https://masourisdordinateur.com/"> masourisdordinateur.com</a>
+                </p>
+			<div id="hideDivDown"></div>
+		</footer>
+        <script src="js/animations.js"></script>
+		<script src="js/button.js"></script>
+    </body>
+
+</html>

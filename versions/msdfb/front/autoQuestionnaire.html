@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+		<link id="cssTag" rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <header>
+			<a id="logo" href="index.html">
+				<img id="imglogo" alt="Ma souris d'ordinateur" src="/img/msdcolorpastel.png"/>
+			</a>
+      <h1>Ma souris d'ordinateur</h1>
+			<div id="hideDiv"></div>
+    </header>
+    <section>
+      <form id="questionnaire" action="/questionnaire>" method="post">
+        <label for="question_1">Question 1 :</label>
+        <br>
+        <input type="text" id="question_1" name="question_1" required>
+        <br>
+        <label for="réponse_1">Réponse 1 :</label>
+        <input type="text" id="reponse_1" name="reponse_1" required>
+        <label for="réponse_2">Réponse 2 :</label>
+        <input type="text" id="reponse_2" name="reponse_2" required>
+        <button class="plus" type="button">+</button>
+        <br>
+        <button class="questSuivante" type="button">Question Suivante</button>
+        <br>
+        <input id="submit" type="submit" value="Envoyer!">
+      </form>
+    </section>
+    <footer>
+      <a class="reseaux"><img class="imgreseaux" alt="twitter" src="/img/twittercolorpastel.png"/></a>
+      <a class="reseaux"><img class="imgreseaux" alt="instagramm" src="/img/instacolorpastel.png"/></a>
+      <a class="reseaux"><img class="imgreseaux" alt="linkedin" src="/img/lkincolorpastel.png"/></a>
+      <p id="copyrights">Droits réservés:
+        <a class="lienPage" href="https://masourisdordinateur.com/"> masourisdordinateur.com</a>
+      </p>
+			<div id="hideDivDown"></div>
+    </footer>
+  <script src="js/autoquest.js"></script>
+  </body>
+</html>

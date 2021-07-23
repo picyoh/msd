@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8" />
+        <title>Ma souris d'ordinateur</title>
+		<link id="cssTag" rel="stylesheet" href="css/style.css" />
+    <link rel"icon" type="image/png" href="img/msdcolor.png" />
+    </head>
+    <body>
+    	<header>
+			<a id="logo" href="index.html">
+				<img id="imglogo" alt="Ma souris d'ordinateur" src="/img/msdcolor.png"/>
+			</a>
+			<nav>
+				<ul>
+					<li class="navLi"><a class="navLien" href="/index.html">Profiling</a></li>
+				</ul>
+			</nav>
+      <h1>Ma souris d'ordinateur</h1>
+			<a id="lightMode">
+				<img id="imgLightMode" alt="luminosité" src="/img/contrasteblc.png"/>
+			</a>
+			<div id="hideDiv"></div>
+        </header>
+        <section>
+          <div id="texte">
+            <form id="questionnaire" action="/php/mail.php>" method="post">
+              <label for="question_1">Question 1 :</label>
+              <br>
+              <input type="text" id="question_1" name="question_1" required>
+              <br>
+              <label for="réponse_1">Réponse 1 :</label>
+              <input type="text" id="reponse_1" name="reponse_1" required>
+              <label for="réponse_2">Réponse 2 :</label>
+              <input type="text" id="reponse_2" name="reponse_2" required>
+              <button class="plus" type="button">+</button>
+              <br>
+              <button class="questSuivante" type="button">Question Suivante</button>
+              <br>
+              <input id="submit" type="submit" value="Envoyer!">
+            </form>
+          </div>
+        </section>
+		<footer>
+				<a class="reseaux"><img class="imgreseaux" alt="twitter" src="/img/twittercolor.png"/></a>
+				<a class="reseaux"><img class="imgreseaux" alt="instagramm" src="/img/instacolor.png"/></a>
+				<a class="reseaux"><img class="imgreseaux" alt="linkedin" src="/img/lkincolor.png"/></a>
+        <div id="basFooter">
+          <a class="lienPage" href="https://masourisdordinateur.com/politiquecookie.html">Cookies</a>
+          <a class="lienPage" href="https://masourisdordinateur.com/mentionslegales.html">Mentions légales</a>
+          <a class="lienPage" href="https://masourisdordinateur.com/cgu.html">C.G.U.</a>
+          <a class="lienPage" href="https://approcheprofilaire.com/"> approcheprofilaire.com</a>
+        </div>
+			<div id="hideDivDown"></div>
+		</footer>
+    <script src="js/autoquest.js"></script>
+    </body>
+</html>

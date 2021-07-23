@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8" />
+        <title>Ma souris d'ordinateur</title>
+        <link rel="stylesheet" href="css/style.css" />
+    </head>
+    <body>
+    	<header>
+        	<a id="logo" href="index.html"><img alt="logo" src="/img/msdcolor.png"/></a> 
+            <h1>Ma souris d'ordinateur</h1>
+			<button id="lightMode"><img id="imgDarkMode" alt="darkmode" src="/img/ampoule.svg"/></button>
+			
+        </header>
+		<nav>
+			<ul>
+				<li><a class="navLien" href="/index.html">Profiling</a></li>
+				<li><a class="navLien" href="/approcheProfilaire.html">Approche profilaire</a></li>
+				<li><a class="navLien" href="/partenaires.html">Partenaires</a></li>
+				<li><a class="navLien" href="/contact.html">Nous contacter</a></li>
+			</ul>
+		</nav>
+        <section>
+			<main>
+				<form id="nousContacter" action="/postMessage" method="post">
+				<h2>Nous contacter</h2>
+				<label>Mail :</label>
+				<input type="email" id="mail" pattern="/(^[A-Za-z]+)+@([a-zA-Z]{2,})+\.([a-zA-Z]{2,})/g" required>
+				<br>
+				<label>Objet :</label>
+				<input type="text" name="objet" id="objet" required>
+				<br>
+				<label>Message :</label>
+				<br>
+				<textarea id="message" name="message" minlenght="100" maxlength="2500" cols="80" rows="20" required></textarea>
+				<br>
+				<input type="submit" name="submit" id="submit" required>
+			</form>
+			</main>
+			<aside>
+				<div id="aside">
+					<form id="line 0" value="0">
+						<h3>Etes-vous prêt à  tenter cette experience?</h3>
+						<button id="Go" value="0" >Go!</button>
+					</form>
+				</div>
+			</aside>
+		</section>
+		<footer>
+			<div id="page-footer">
+				<a class="lienReseaux"><img id="twitter" class="reseaux" alt="twitter" src="/img/twittercolor.png"/></a>
+				<a class="lienReseaux"><img id="instagramm" class="reseaux" alt="instagramm" src="/img/instacolor.png"/></a>
+				<a class="lienReseaux"><img id="linkedin" class="reseaux" alt="linkedin" src="/img/lkincolor.png"/></a>
+                <p id="copyrights">Droits réservés:
+                <a href="https://masourisdordinateur.com/"> masourisdordinateur.com</a>
+                </p>
+            </div>
+		</footer>
+        <script src="js/contact.js"></script>
+    </body> 
+
+</html>

@@ -1,0 +1,2458 @@
+
+{
+    "line 1": 
+    {
+        "value": "1",
+        "qtext": "Quel est votre utilisation principale de la souris ?",
+        "answers": [
+            {
+                    "id": "Gaming",
+                    "value": "1",
+                    "name": "Gaming"
+            },
+            {    
+                    "id": "Bureautique",
+                    "value": "1000",
+                    "name": "Bureautique"
+            }
+        ]
+    },
+    
+    "line 2": 
+    {
+        "value": "2",
+        "qtext": "Quelle est votre fréquence d'utilisation de la souris ?",
+        "answers": [
+                {
+                    "id": "Hardcore Gamer",
+                    "value": "10",
+                    "parent": "Gaming"
+                },
+                
+                {
+                    "id": "Forte utilisation",
+                    "value": "2",
+                    "parent": "Bureautique"
+                },
+                
+                {
+                    "id": "Quotidien/régulier",
+                    "value": "1"  
+                },
+                
+                {
+                    "id": "Ponctuel",
+                    "value": "1"  
+                }
+        ]
+    },
+    
+    "line 3": 
+    {
+        "value": "3",
+        "qMulti": [
+            {
+                "qtext":"A quel type de jeux jouez-vous ?",
+                "parent":"Gaming" 
+            },
+            
+            {
+                "qtext": "Pour quelle utilisation souhaitez-vous votre souris ?",
+                "parent":"Bureautique"
+            }
+            
+        ],
+        
+        "answers": [
+                {
+                    "id": "FPS",
+                    "value": "10",
+                    "parent": "Gaming",
+                    "name": "FPS"
+                },
+                
+                {
+                    "id": "MMORPG",
+                    "value": "20",
+                    "parent": "Gaming"
+                },
+                
+                {
+                    "id": "MOBA",
+                    "value": "10",
+                    "parent": "Gaming"
+                },
+                 
+                {
+                    "id": "SPORT",
+                    "value": "1",
+                    "parent": "Gaming"
+                },
+
+                {
+                    "id": "COURSE",
+                    "value": "1",
+                    "parent": "Gaming"
+                },
+
+                {
+                    "id": "Wargame / Gestion",
+                    "value": "20",
+                    "parent": "Gaming"
+                },
+
+                {
+                    "id": "Aventure",
+                    "value": "1",
+                    "parent": "Gaming"
+                },
+
+                {
+                    "id": "Plateforme",
+                    "value": "10",
+                    "parent": "Gaming"
+                },
+
+                {
+                    "id": "Hack'n Slash",
+                    "value": "20",
+                    "parent": "Gaming"
+                },
+
+                {
+                    "id": "Professionnel",
+                    "value": "1",
+                    "parent": "Bureautique"
+                },
+
+                {
+                    "id": "Loisir / Famille",
+                    "value": "4",
+                    "parent": "Bureautique"
+                },
+
+                {
+                    "id": "Médical",
+                    "value": "4",
+                    "parent": "Bureautique"
+                },
+
+                
+                
+        ]
+    },
+    
+    "line 4":
+
+    {
+        "value": "4",
+
+        "qMulti": [
+            {
+                "qtext":"A quels jeux jouez-vous ?",
+                "parent":"Gaming" 
+            },
+            
+            {
+                "qtext": "Dans quelles activités utiliserez-vous cette souris d'ordinateur ?",
+                "parent":"Professionnel"
+            },
+
+            {
+                "qtext": "Quel type de population utilisera cette souris d'ordinateur ?",
+                "parent":"Loisir / Famille"
+            },
+
+            {
+                "qtext": "Sur quels aspects médicaux ?",
+                "parent":"Médical"
+            }
+            
+          ],
+
+        "answers": [
+                
+            
+                
+
+                {
+                    "id": "Pour les activités créatives",
+                    "value": "1",
+                    "parent": "Professionnel"
+                },
+
+                {
+                    "id": "Pour les activités administratives",
+                    "value": "1",
+                    "parent": "Professionnel"
+                },
+
+                {
+                    "id": "Pour des activités polyvalentes",
+                    "value": "1",
+                    "parent": "Professionnel"
+                },
+
+                {
+                    "id": "Une seul personne",
+                    "value": "1",
+                    "parent": "Loisir / Famille"
+                },
+
+                {
+                    "id": "Un couple",
+                    "value": "1",
+                    "parent": "Loisir / Famille"
+                },
+
+                {
+                    "id": "Une famille",
+                    "value": "1",
+                    "parent": "Loisir / Famille"
+                },
+
+                {
+                    "id": "Motricité",
+                    "value": "1",
+                    "parent": "Médical"
+                },
+
+                {
+                    "id": "Fatigue musculaire",
+                    "value": "1",
+                    "parent": "Médical"
+                },
+
+                {
+                    "id": "Particularité physique",
+                    "value": "1",
+                    "parent": "Médical"
+                },
+
+                
+            
+                {
+                    "id": "Apex Legends",
+                    "value": "1",
+                    "parent": "FPS"
+                },
+                
+                {
+                    "id": "PUBG",
+                    "value": "1",
+                    "parent": "FPS"
+                },
+
+                {
+                    "id": "Fortnite",
+                    "value": "1",
+                    "parent": "FPS"
+                },
+
+                {
+                    "id": "Battlefield",
+                    "value": "1",
+                    "parent": "FPS"
+                },
+
+                {
+                    "id": "Counter-Strike:GO",
+                    "value": "1",
+                    "parent": "FPS"
+                },
+
+                {
+                    "id": "PlanetSide 2",
+                    "value": "1",
+                    "parent": "FPS"
+                },
+
+                {
+                    "id": "Rainbox Six Siege",
+                    "value": "1",
+                    "parent": "FPS"
+                },
+
+                {
+                    "id": "Rising Storm",
+                    "value": "1",
+                    "parent": "FPS"
+                },
+
+                {
+                    "id": "Overwatch",
+                    "value": "1",
+                    "parent": "FPS"
+                },
+
+                {
+                    "id": "Unreal Tournament",
+                    "value": "1",
+                    "parent": "FPS"
+                },
+
+                {
+                    "id": "Team Fortress 2",
+                    "value": "1",
+                    "parent": "FPS"
+                },
+
+                {
+                    "id": "Autres FPS",
+                    "value": "1",
+                    "parent": "FPS"
+                },
+
+                {
+                    "id": "World of WarCraft",
+                    "value": "1",
+                    "parent": "MMORPG"
+                },
+
+                {
+                    "id": "Guild Wars 2",
+                    "value": "1",
+                    "parent": "MMORPG"
+                },
+
+                {
+                    "id": "The Elder Scrolls Online",
+                    "value": "1",
+                    "parent": "MMORPG"
+                },
+
+                {
+                    "id": "Final Fantasy XIV",
+                    "value": "1",
+                    "parent": "MMORPG"
+                },
+
+                {
+                    "id": "Black Desert Online",
+                    "value": "1",
+                    "parent": "MMORPG"
+                },
+
+                {
+                    "id": "Conan Exiles",
+                    "value": "1",
+                    "parent": "MMORPG"
+                },
+
+                {
+                    "id": "Archeage Unchained",
+                    "value": "1",
+                    "parent": "MMORPG"
+                },
+
+                {
+                    "id": "Eternal Magic",
+                    "value": "1",
+                    "parent": "MMORPG"
+                },
+
+                {
+                    "id": "Autres MMORPG",
+                    "value": "1",
+                    "parent": "MMORPG"
+                },
+
+                {
+                    "id": "League of Legends (LOL)",
+                    "value": "1",
+                    "parent": "MOBA"
+                },
+
+                {
+                    "id": "DotA 2",
+                    "value": "1",
+                    "parent": "MOBA"
+                },
+
+                {
+                    "id": "Heroes of the Storm (Hots)",
+                    "value": "1",
+                    "parent": "MOBA"
+                },
+
+                {
+                    "id": "Smite",
+                    "value": "1",
+                    "parent": "MOBA"
+                },
+
+
+                {
+                    "id": "Paladins",
+                    "value": "1",
+                    "parent": "MOBA"
+                },
+
+                {
+                    "id": "Battlerite",
+                    "value": "1",
+                    "parent": "MOBA"
+                },
+
+                {
+                    "id": "Autres MOBA",
+                    "value": "1",
+                    "parent": "MOBA"
+                },
+
+                {
+                    "id": "FIFA 20",
+                    "value": "1",
+                    "parent": "SPORT"
+                },
+
+                {
+                    "id": "Football Manager",
+                    "value": "1",
+                    "parent": "SPORT"
+                },
+
+                {
+                    "id": "Pro Cycling Manager 2018",
+                    "value": "1",
+                    "parent": "SPORT"
+                },
+
+                {
+                    "id": "Pro Evolution Soccer 2018",
+                    "value": "1",
+                    "parent": "SPORT"
+                },
+
+                {
+                    "id": "Autres jeux de SPORT",
+                    "value": "1",
+                    "parent": "SPORT"
+                },
+
+                {
+                    "id": "TrackMania 2",
+                    "value": "1",
+                    "parent": "COURSE"
+                },
+
+                {
+                    "id": "Forza Horizon",
+                    "value": "1",
+                    "parent": "COURSE"
+                },
+
+                {
+                    "id": "Need for Speed",
+                    "value": "1",
+                    "parent": "COURSE"
+                },
+
+                {
+                    "id": "Grip",
+                    "value": "1",
+                    "parent": "COURSE"
+                },
+
+                {
+                    "id": "Wreckfest",
+                    "value": "1",
+                    "parent": "COURSE"
+                },
+
+                {
+                    "id": "Autres jeux de COURSE",
+                    "value": "1",
+                    "parent": "COURSE"
+                },
+
+                {
+                    "id": "WarCraft III",
+                    "value": "1",
+                    "parent": "Wargame / Gestion"
+                },
+
+                {
+                    "id": "Starcraft 2",
+                    "value": "1",
+                    "parent": "Wargame / Gestion"
+                },
+
+                {
+                    "id": "Age of Empires",
+                    "value": "1",
+                    "parent": "Wargame / Gestion"
+                },
+
+                {
+                    "id": "Command & Conquer : Red Alert 2",
+                    "value": "1",
+                    "parent": "Wargame / Gestion"
+                },
+
+                {
+                    "id": "Crusader Kings II",
+                    "value": "1",
+                    "parent": "Wargame / Gestion"
+                },
+
+                {
+                    "id": "Homeworld",
+                    "value": "1",
+                    "parent": "Wargame / Gestion"
+                },
+
+                {
+                    "id": "Total War",
+                    "value": "1",
+                    "parent": "Wargame / Gestion"
+                },
+
+                {
+                    "id": "Civilization",
+                    "value": "1",
+                    "parent": "Wargame / Gestion"
+                },
+
+                {
+                    "id": "Autres jeux de Gestion/Wargame",
+                    "value": "1",
+                    "parent": "Wargame / Gestion"
+                },
+
+                {
+                    "id": "Far Cry",
+                    "value": "1",
+                    "parent": "Aventure"
+                },
+
+                {
+                    "id": "Grand Theft Auto (GTA)",
+                    "value": "1",
+                    "parent": "Aventure"
+                },
+
+                {
+                    "id": "The Outer Worlds",
+                    "value": "1",
+                    "parent": "Aventure"
+                },
+
+                {
+                    "id": "Death Stranding",
+                    "value": "1",
+                    "parent": "Aventure"
+                },
+
+                {
+                    "id": "Red Dead Redemption",
+                    "value": "1",
+                    "parent": "Aventure"
+                },
+
+                {
+                    "id": "Zelda",
+                    "value": "1",
+                    "parent": "Aventure"
+                },
+
+                {
+                    "id": "Autres jeux d'AVENTURE",
+                    "value": "1",
+                    "parent": "Aventure"
+                },
+
+                {
+                    "id": "Inside",
+                    "value": "1",
+                    "parent": "Plateforme"
+                },
+
+                {
+                    "id": "Unravel",
+                    "value": "1",
+                    "parent": "Plateforme"
+                },
+                
+                {
+                    "id": "Ori and the Blind Forest",
+                    "value": "1",
+                    "parent": "Plateforme"
+                },
+
+                {
+                    "id": "Devil May Cry 5",
+                    "value": "1",
+                    "parent": "Plateforme"
+                },
+
+                {
+                    "id": "Dead Cells",
+                    "value": "1",
+                    "parent": "Plateforme"
+                },
+
+                {
+                    "id": "Owlboy",
+                    "value": "1",
+                    "parent": "Plateforme"
+                },
+
+                {
+                    "id": "Trine 3: The Artifacts of Power",
+                    "value": "1",
+                    "parent": "Plateforme"
+                },
+
+                
+
+                {
+                    "id": "Autres jeux de PLATEFORME",
+                    "value": "1",
+                    "parent": "Plateforme"
+                },
+
+                {
+                    "id": "Diablo III",
+                    "value": "1",
+                    "parent": "Hack'n Slash"
+                },
+
+                {
+                    "id": "Grim Dawn",
+                    "value": "1",
+                    "parent": "Hack'n Slash"
+                },
+
+                {
+                    "id": "Dungeon Siege",
+                    "value": "1",
+                    "parent": "Hack'n Slash"
+                },
+
+                {
+                    "id": "Sacred",
+                    "value": "1",
+                    "parent": "Hack'n Slash"
+                },
+
+                {
+                    "id": "Titan Quest",
+                    "value": "1",
+                    "parent": "Hack'n Slash"
+                },
+
+                {
+                    "id": "Path of Exile: Atlas of Worlds",
+                    "value": "1",
+                    "parent": "Hack'n Slash"
+                },
+
+                {
+                    "id": "Torchlight II",
+                    "value": "1",
+                    "parent": "Hack'n Slash"
+                },
+
+
+                {
+                    "id": "Autres Hack'n Slash",
+                    "value": "1",
+                    "parent": "Hack'n Slash"
+                }
+        ]
+    },
+
+    "line 5":
+
+    {
+        "value": "5",
+        "qMulti": [
+            {
+                "qtext":"Quel type de joueur êtes-vous dans le jeux ?",
+                "parent":"Gaming" 
+            },
+
+            {
+                "qtext":"Un environnement spécifique ?",
+                "parent":"Professionnel" 
+            },
+
+            {
+                "qtext":"Pour quelles activités ?",
+                "parent":["Loisir / Famille","Médical"]
+            },
+            
+            {
+                "qtext": "Comment souhaitez-vous gérer les commandes supplémentaires (Activables) ?",
+                "parent":["SPORT","COURSE","GESTION/WARGAME","AVENTURE","PLATEFORME"]
+            }
+            
+        ],
+
+        "answers": 
+            [
+
+                {
+                    "id": "Un environnement salissant",
+                    "value": "1",
+                    "parent":"Professionnel"
+                },
+
+                {
+                    "id": "Un environnement humide",
+                    "value": "1",
+                    "parent":"Professionnel"
+                },
+
+                {
+                    "id": "Un environnement extérieur",
+                    "value": "1",
+                    "parent":"Professionnel"
+                },
+
+                {
+                    "id": "Pas d'environnement Spécifique",
+                    "value": "1",
+                    "parent":"Professionnel"
+                },
+
+                {
+                    "id": "Des activités de loisirs (Films, vidéo, musiques ...) et de consultation de sites internet",
+                    "value": "1",
+                    "parent":["Loisir / Famille","Médical"]
+                },
+
+                {
+                    "id": "Des activités administratives",
+                    "value": "1",
+                    "parent":["Loisir / Famille","Médical"]
+                },
+
+                {
+                    "id": "Des activités polyvalentes",
+                    "value": "1",
+                    "parent":["Loisir / Famille","Médical"]
+                },
+
+                {
+                    "id": "Rusheur",
+                    "value": "1",
+                    "parent":"FPS"
+                },
+
+                {
+                    "id": "Campeur",
+                    "value": "1",
+                    "parent":"FPS"
+                    
+                },
+
+                {
+                    "id": "Les deux mon capitaine",
+                    "value": "1",
+                    "parent":"FPS"
+                    
+                },
+
+
+                {
+                    "id": "Chasseur de démons",
+                    "value": "10",
+                    "parent":"Diablo III"
+                    
+                },
+
+                {
+                    "id": "Barbare",
+                    "value": "10",
+                    "parent":"Diablo III"
+                    
+                },
+
+                {
+                    "id": "Féticheur",
+                    "value": "10",
+                    "parent":"Diablo III"
+                    
+                },
+
+                {
+                    "id": "Sorcier",
+                    "value": "10",
+                    "parent":"Diablo III"
+                    
+                },
+
+
+                {
+                    "id": "Moine",
+                    "value": "10",
+                    "parent":"Diablo III"
+                    
+                },
+
+                {
+                    "id": "Ingénieur",
+                    "value": "10",
+                    "parent":"Torchlight II"
+                    
+                },
+
+                {
+                    "id": "Outlander",
+                    "value": "10",
+                    "parent":"Torchlight II"
+                    
+                },
+
+                {
+                    "id": "Berserker",
+                    "value": "10",
+                    "parent":"Torchlight II"
+                    
+                },
+
+                {
+                    "id": "Embermage",
+                    "value": "10",
+                    "parent":"Torchlight II"
+                    
+                },
+
+                {
+                    "id": "Guerrier",
+                    "value": "10",
+                    "parent":"Dungeon Siege"
+                    
+                },
+
+                {
+                    "id": "Archon",
+                    "value": "10",
+                    "parent":"Dungeon Siege"
+                    
+                },
+
+                {
+                    "id": "Archer",
+                    "value": "10",
+                    "parent":"Dungeon Siege"
+                    
+                },
+
+                {
+                    "id": "Mage",
+                    "value": "10",
+                    "parent":"Dungeon Siege"
+                    
+                },
+
+                {
+                    "id": "Soldat",
+                    "value": "10",
+                    "parent":"Grim Dawn"
+                    
+                },
+
+                {
+                    "id": "Lame de Nuit",
+                    "value": "10",
+                    "parent":"Grim Dawn"
+                    
+                },
+
+                {
+                    "id": "Chaman",
+                    "value": "10",
+                    "parent":"Grim Dawn"
+                    
+                },
+
+                {
+                    "id": "Arcaniste",
+                    "value": "10",
+                    "parent":"Grim Dawn"
+                    
+                },
+
+                {
+                    "id": "Occultiste",
+                    "value": "10",
+                    "parent":"Grim Dawn"
+                    
+                },
+
+                {
+                    "id": "Démolisseur",
+                    "value": "10",
+                    "parent":"Grim Dawn"
+                    
+                },
+
+                {
+                    "id": "Nécromancien",
+                    "value": "10",
+                    "parent":"Grim Dawn"
+                    
+                },
+
+                {
+                    "id": "Inquisiteur",
+                    "value": "10",
+                    "parent":"Grim Dawn"
+                    
+                },
+
+                {
+                    "id": "Arssermenté",
+                    "value": "10",
+                    "parent":"Grim Dawn"
+                    
+                },
+
+                {
+                    "id": "Witch",
+                    "value": "10",
+                    "parent":"Path of Exile: Atlas of Worlds"
+                    
+                },
+
+                {
+                    "id": "Maraudeur",
+                    "value": "10",
+                    "parent":"Path of Exile: Atlas of Worlds"
+                    
+                },
+
+                {
+                    "id": "Ranger",
+                    "value": "10",
+                    "parent":"Path of Exile: Atlas of Worlds"
+                    
+                },
+
+                {
+                    "id": "Scion",
+                    "value": "10",
+                    "parent":"Path of Exile: Atlas of Worlds"
+                    
+                },
+
+                {
+                    "id": "Templar",
+                    "value": "10",
+                    "parent":"Path of Exile: Atlas of Worlds"
+                    
+                },
+
+                {
+                    "id": "Duelist",
+                    "value": "10",
+                    "parent":"Path of Exile: Atlas of Worlds"
+                    
+                },
+
+                {
+                    "id": "Shadow",
+                    "value": "10",
+                    "parent":"Path of Exile: Atlas of Worlds"
+                    
+                },
+
+                {
+                    "id": "Gladiateur",
+                    "value": "10",
+                    "parent":"Sacred"
+                    
+                },
+
+                {
+                    "id": "Elfe Sylvaine",
+                    "value": "10",
+                    "parent":"Sacred"
+                    
+                },
+
+                {
+                    "id": "Mage de Bataille",
+                    "value": "10",
+                    "parent":"Sacred"
+                    
+                },
+
+                {
+                    "id": "Démone",
+                    "value": "10",
+                    "parent":"Sacred"
+                    
+                },
+
+                {
+                    "id": "Séraphin",
+                    "value": "10",
+                    "parent":"Sacred"
+                    
+                },
+
+                {
+                    "id": "Elfe Noir",
+                    "value": "10",
+                    "parent":"Sacred"
+                    
+                },
+
+                {
+                    "id": "Vampire",
+                    "value": "10",
+                    "parent":"Sacred"
+                    
+                },
+
+                {
+                    "id": "Nain",
+                    "value": "10",
+                    "parent":"Sacred"
+                    
+                },
+
+                {
+                    "id": "Tank",
+                    "value": "10",
+                    "parent":"Titan Quest"
+                    
+                },
+
+                {
+                    "id": "DPS",
+                    "value": "10",
+                    "parent":"Titan Quest"
+                    
+                },
+
+                {
+                    "id": "Heal",
+                    "value": "10",
+                    "parent":"Titan Quest"
+                    
+                },
+
+                {
+                    "id": "Mage",
+                    "value": "10",
+                    "parent":"Titan Quest"
+                    
+                },
+
+                {
+                    "id": "Un personnage polyvalent",
+                    "value": "10",
+                    "parent":"Autres Hack'n Slash"
+                    
+                },
+
+                {
+                    "id": "Un personnage réactif",
+                    "value": "10",
+                    "parent":"Autres Hack'n Slash"
+                    
+                },
+
+                {
+                    "id": "Un personnage avec beaucoup d'activables",
+                    "value": "10",
+                    "parent":"Autres Hack'n Slash"
+                    
+                },
+                   
+                
+                {
+                    "id": "Chaman",
+                    "value": "10",
+                    "parent":"World of Warcraft"
+                    
+                },
+
+                {
+                    "id": "Chasseur",
+                    "value": "10",
+                    "parent":"World of Warcraft"
+                    
+                },
+
+                {
+                    "id": "Chevalier de la Mort",
+                    "value": "10",
+                    "parent":"World of Warcraft"
+                    
+                },
+
+                {
+                    "id": "Démoniste",
+                    "value": "10",
+                    "parent":"World of Warcraft"
+                    
+                },
+
+
+                {
+                    "id": "Druide",
+                    "value": "10",
+                    "parent":"World of Warcraft"
+                    
+                },
+
+                {
+                    "id": "Guerrier",
+                    "value": "10",
+                    "parent":"World of Warcraft"
+                    
+                },
+
+                {
+                    "id": "Mage",
+                    "value": "10",
+                    "parent":"World of Warcraft"
+                    
+                },
+
+                {
+                    "id": "Paladin",
+                    "value": "10",
+                    "parent":"World of Warcraft"
+                    
+                },
+
+                {
+                    "id": "Prêtre",
+                    "value": "10",
+                    "parent":"World of Warcraft"
+                    
+                },
+
+                {
+                    "id": "Voleur",
+                    "value": "10",
+                    "parent":"World of Warcraft"
+                    
+                },
+
+                {
+                    "id": "Moine",
+                    "value": "10",
+                    "parent":"World of Warcraft"
+                    
+                },
+
+                {
+                    "id": "Chasseur de Démon",
+                    "value": "10",
+                    "parent":"World of Warcraft"
+                    
+                },
+
+                {
+                    "id": "Paladin",
+                    "value": "10",
+                    "parent":"Final Fantasy XIV"
+                    
+                },
+
+                {
+                    "id": "Moine",
+                    "value": "10",
+                    "parent":"Final Fantasy XIV"
+                    
+                },
+
+                {
+                    "id": "Barde",
+                    "value": "10",
+                    "parent":"Final Fantasy XIV"
+                    
+                },
+                
+                {
+                    "id": "Mage Blanc",
+                    "value": "10",
+                    "parent":"Final Fantasy XIV"
+                    
+                },
+
+                {
+                    "id": "Mage Noir",
+                    "value": "10",
+                    "parent":"Final Fantasy XIV"
+                    
+                },
+
+                {
+                    "id": "Chevalier Dragon",
+                    "value": "10",
+                    "parent":"Final Fantasy XIV"
+                    
+                },
+
+                {
+                    "id": "Guerrier",
+                    "value": "10",
+                    "parent":"Final Fantasy XIV"
+                    
+                },
+
+                {
+                    "id": "Invocateur",
+                    "value": "10",
+                    "parent":"Final Fantasy XIV"
+                    
+                },
+
+                {
+                    "id": "Erudit",
+                    "value": "10",
+                    "parent":"Final Fantasy XIV"
+                    
+                },
+
+                {
+                    "id": "Ninja",
+                    "value": "10",
+                    "parent":"Final Fantasy XIV"
+                    
+                },
+
+                {
+                    "id": "Chevalier Dragon",
+                    "value": "10",
+                    "parent":"The Elder Scrolls Online"
+                    
+                },
+
+                {
+                    "id": "Lame Noire",
+                    "value": "10",
+                    "parent":"The Elder Scrolls Online"
+                    
+                },
+
+                {
+                    "id": "Sorcier",
+                    "value": "10",
+                    "parent":"The Elder Scrolls Online"
+                    
+                },
+
+                {
+                    "id": "Templier",
+                    "value": "10",
+                    "parent":"The Elder Scrolls Online"
+                    
+                },
+
+
+                {
+                    "id": "Guerrier",
+                    "value": "10",
+                    "parent":"Black Desert Online"
+                    
+                },
+
+                {
+                    "id": "Rodeuse",
+                    "value": "10",
+                    "parent":"Black Desert Online"
+                    
+                },
+
+                {
+                    "id": "Sorcière",
+                    "value": "10",
+                    "parent":"Black Desert Online"
+                    
+                },
+
+                {
+                    "id": "Valkyrie",
+                    "value": "10",
+                    "parent":"Black Desert Online"
+                    
+                },
+
+                {
+                    "id": "Magicien/Magicienne",
+                    "value": "10",
+                    "parent":"Black Desert Online"
+                    
+                },
+
+                {
+                    "id": "Tamer",
+                    "value": "10",
+                    "parent":"Black Desert Online"
+                    
+                },
+
+                {
+                    "id": "Maehwa",
+                    "value": "10",
+                    "parent":"Black Desert Online"
+                    
+                },
+
+                {
+                    "id": "Musa",
+                    "value": "10",
+                    "parent":"Black Desert Online"
+                    
+                },
+
+                {
+                    "id": "Ninja",
+                    "value": "10",
+                    "parent":"Black Desert Online"
+                    
+                },
+
+                {
+                    "id": "Kunoichi",
+                    "value": "10",
+                    "parent":"Black Desert Online"
+                    
+                },
+
+                {
+                    "id": "Lame Sombre",
+                    "value": "10",
+                    "parent":"Black Desert Online"
+                    
+                },
+
+                {
+                    "id": "Berserker",
+                    "value": "10",
+                    "parent":"Black Desert Online"
+                    
+                },
+
+                {
+                    "id": "Poings Furieux",
+                    "value": "10",
+                    "parent":"Black Desert Online"
+                    
+                },
+
+                {
+                    "id": "Tank",
+                    "value": "10",
+                    "parent":"Archeage Unchained"
+                    
+                },
+
+                {
+                    "id": "Soigneur",
+                    "value": "10",
+                    "parent":"Archeage Unchained"
+                    
+                },
+
+                {
+                    "id": "Range DPS",
+                    "value": "10",
+                    "parent":"Archeage Unchained"
+                    
+                },
+
+                {
+                    "id": "Melee DPS",
+                    "value": "10",
+                    "parent":"Archeage Unchained"
+                    
+                },
+
+                {
+                    "id": "Mages",
+                    "value": "10",
+                    "parent":"Archeage Unchained"
+                    
+                },
+
+
+                {
+                    "id": "Envoûteur",
+                    "value": "10",
+                    "parent":"Guild Wars 2"
+                    
+                },
+
+                {
+                    "id": "Gardien",
+                    "value": "10",
+                    "parent":"Guild Wars 2"
+                    
+                },
+
+                {
+                    "id": "Nécromant",
+                    "value": "10",
+                    "parent":"Guild Wars 2"
+                    
+                },
+
+                {
+                    "id": "Rôdeur",
+                    "value": "10",
+                    "parent":"Guild Wars 2"
+                    
+                },
+
+                {
+                    "id": "Elémentaliste",
+                    "value": "10",
+                    "parent":"Guild Wars 2"
+                    
+                },
+
+                {
+                    "id": "Guerrier",
+                    "value": "10",
+                    "parent":"Guild Wars 2"
+                    
+                },
+
+                {
+                    "id": "Revenant",
+                    "value": "10",
+                    "parent":"Guild Wars 2"
+                    
+                },
+
+
+                {
+                    "id": "Voleur",
+                    "value": "10",
+                    "parent":"Guild Wars 2"
+                    
+                },
+
+                {
+                    "id": "Ingénieur",
+                    "value": "10",
+                    "parent":"Guild Wars 2"
+                    
+                },
+
+                {
+                    "id": "Chevalier",
+                    "value": "10",
+                    "parent":"Eternal Magic"
+                    
+                },
+
+                {
+                    "id": "Prêtre",
+                    "value": "10",
+                    "parent":"Eternal Magic"
+                    
+                },
+
+                {
+                    "id": "Assassin",
+                    "value": "10",
+                    "parent":"Eternal Magic"
+                    
+                },
+
+                {
+                    "id": "Gunslinger",
+                    "value": "10",
+                    "parent":"Eternal Magic"
+                    
+                },
+
+                {
+                    "id": "Spellblade",
+                    "value": "10",
+                    "parent":"Eternal Magic"
+                    
+                },
+
+                {
+                    "id": "Mages",
+                    "value": "10",
+                    "parent":"Eternal Magic"
+                    
+                },
+
+                {
+                    "id": "Un personnage polyvalent",
+                    "value": "10",
+                    "parent":"Autres MMORPG"
+                    
+                },
+
+                {
+                    "id": "Un personnage réactif",
+                    "value": "10",
+                    "parent":"Autres MMORPG"
+                    
+                },
+
+                {
+                    "id": "Un personnage avec beaucoup d'activables",
+                    "value": "10",
+                    "parent":"Autres MMORPG"
+                    
+                },
+
+                {
+                    "id": "Tank",
+                    "value": "10",
+                    "parent":"League of Legends (LOL)"
+                    
+                },
+
+                {
+                    "id": "Melee",
+                    "value": "10",
+                    "parent":"League of Legends (LOL)"
+                    
+                },
+
+                {
+                    "id": "Assassin",
+                    "value": "10",
+                    "parent":"League of Legends (LOL)"
+                    
+                },
+
+                {
+                    "id": "Mage",
+                    "value": "10",
+                    "parent":"League of Legends (LOL)"
+                    
+                },
+
+
+                {
+                    "id": "Support",
+                    "value": "10",
+                    "parent":"League of Legends (LOL)"
+                    
+                },
+
+                {
+                    "id": "DPS Distance",
+                    "value": "10",
+                    "parent":"League of Legends (LOL)"
+                    
+                },
+
+                {
+                    "id": "Jungle",
+                    "value": "10",
+                    "parent":"League of Legends (LOL)"
+                    
+                },
+
+                {
+                    "id": "Tank",
+                    "value": "10",
+                    "parent":"Smite"
+                    
+                },
+
+                {
+                    "id": "Melee",
+                    "value": "10",
+                    "parent":"Smite"
+                    
+                },
+
+                {
+                    "id": "Assassin",
+                    "value": "10",
+                    "parent":"Smite"
+                    
+                },
+
+                {
+                    "id": "Mage",
+                    "value": "10",
+                    "parent":"Smite"
+                    
+                },
+
+                {
+                    "id": "Support",
+                    "value": "10",
+                    "parent":"Smite"
+                    
+                },
+
+                {
+                    "id": "DPS Distance",
+                    "value": "10",
+                    "parent":"Smite"
+                    
+                },
+
+                {
+                    "id": "Tank",
+                    "value": "10",
+                    "parent":"DotA 2"
+                    
+                },
+
+                {
+                    "id": "Melee",
+                    "value": "10",
+                    "parent":"DotA 2"
+                    
+                },
+
+                {
+                    "id": "Assassin",
+                    "value": "10",
+                    "parent":"DotA 2"
+                    
+                },
+
+                {
+                    "id": "Mage",
+                    "value": "10",
+                    "parent":"DotA 2"
+                    
+                },
+
+                {
+                    "id": "Support",
+                    "value": "10",
+                    "parent":"DotA 2"
+                    
+                },
+
+                
+                {
+                    "id": "DPS Distance",
+                    "value": "10",
+                    "parent":"DotA 2"
+                    
+                },
+
+                {
+                    "id": "Tank",
+                    "value": "10",
+                    "parent":"Hereos of the Storm (Hots)"
+                    
+                },
+
+                {
+                    "id": "Melee",
+                    "value": "10",
+                    "parent":"Hereos of the Storm (Hots)"
+                    
+                },
+
+                {
+                    "id": "Mage",
+                    "value": "10",
+                    "parent":"Hereos of the Storm (Hots)"
+                    
+                },
+
+                {
+                    "id": "Support",
+                    "value": "10",
+                    "parent":"Hereos of the Storm (Hots)"
+                    
+                },
+
+                {
+                    "id": "DPS Distance",
+                    "value": "10",
+                    "parent":"Hereos of the Storm (Hots)"
+                    
+                },
+
+                {
+                    "id": "Tank",
+                    "value": "10",
+                    "parent":"Paladins"
+                    
+                },
+
+                {
+                    "id": "Soutien",
+                    "value": "10",
+                    "parent":"Paladins"
+                    
+                },
+
+                {
+                    "id": "DPS",
+                    "value": "10",
+                    "parent":"Paladins"
+                    
+                },
+
+                {
+                    "id": "Flanc",
+                    "value": "10",
+                    "parent":"Paladins"
+                    
+                },
+
+                {
+                    "id": "Tank",
+                    "value": "10",
+                    "parent":"Battlerite"
+                    
+                },
+
+                {
+                    "id": "Soutien",
+                    "value": "10",
+                    "parent":"Battlerite"
+                    
+                },
+
+                {
+                    "id": "DPS",
+                    "value": "10",
+                    "parent":"Battlerite"
+                    
+                },
+
+                {
+                    "id": "Un personnage polyvalent",
+                    "value": "10",
+                    "parent":"Autres MOBA"
+                    
+                },
+
+                {
+                    "id": "Un personnage réactif",
+                    "value": "10",
+                    "parent":"Autres MOBA"
+                    
+                },
+
+                {
+                    "id": "Un personnage avec beaucoup d'activables",
+                    "value": "10",
+                    "parent":"Autres MOBA"
+
+                },
+
+                {
+                    "id": "Depuis la souris",
+                    "value": "10",
+                    "parent":"FIFA 20"
+
+                },
+
+                {
+                    "id": "Depuis le clavier",
+                    "value": "10",
+                    "parent":"FIFA 20"
+
+                },
+
+                {
+                    "id": "Depuis la souris",
+                    "value": "10",
+                    "parent":"Football Manager 2020"
+
+                },
+
+                {
+                    "id": "Depuis le clavier",
+                    "value": "10",
+                    "parent":"Football Manager 2020"
+
+                },
+
+                {
+                    "id": "Depuis la souris",
+                    "value": "10",
+                    "parent":"Pro Cycling Manager 2018"
+
+                },
+
+                {
+                    "id": "Depuis le clavier",
+                    "value": "10",
+                    "parent":"Pro Cycling Manager 2018"
+
+                },
+
+                {
+                    "id": "Depuis la souris",
+                    "value": "10",
+                    "parent":"Pro Evolution Soccer 2018"
+
+                },
+
+                {
+                    "id": "Depuis le clavier",
+                    "value": "10",
+                    "parent":"Pro Evolution Soccer 2018"
+
+                },
+
+                {
+                    "id": "Depuis la souris",
+                    "value": "10",
+                    "parent":"Autres jeux de SPORT"
+
+                },
+
+                {
+                    "id": "Depuis le clavier",
+                    "value": "10",
+                    "parent":"Autres jeux de SPORT"
+
+                },
+
+                {
+                    "id": "Depuis la souris",
+                    "value": "10",
+                    "parent":"Autres jeux de SPORT"
+
+                },
+
+                {
+                    "id": "Depuis le clavier",
+                    "value": "10",
+                    "parent":"Autres jeux de SPORT"
+
+                },
+
+                {
+                    "id": "Depuis la souris",
+                    "value": "10",
+                    "parent":"TrackMania 2"
+
+                },
+
+                {
+                    "id": "Depuis le clavier",
+                    "value": "10",
+                    "parent":"TrackMania 2"
+
+                },
+
+                {
+                    "id": "Depuis la souris",
+                    "value": "10",
+                    "parent":"Forza Horizon"
+
+                },
+
+                {
+                    "id": "Depuis le clavier",
+                    "value": "10",
+                    "parent":"Forza Horizon"
+
+                },
+
+                {
+                    "id": "Depuis la souris",
+                    "value": "10",
+                    "parent":"Need for Speed"
+
+                },
+
+                {
+                    "id": "Depuis le clavier",
+                    "value": "10",
+                    "parent":"Need for Speed"
+
+                },
+
+                {
+                    "id": "Depuis la souris",
+                    "value": "10",
+                    "parent":"Grip"
+
+                },
+
+                {
+                    "id": "Depuis le clavier",
+                    "value": "10",
+                    "parent":"Grip"
+
+                },
+
+                {
+                    "id": "Depuis la souris",
+                    "value": "10",
+                    "parent":"Wreckfest"
+
+                },
+
+                {
+                    "id": "Depuis le clavier",
+                    "value": "10",
+                    "parent":"Wreckfest"
+
+                },
+
+                {
+                    "id": "Depuis la souris",
+                    "value": "10",
+                    "parent":"Autres jeux de COURSE"
+
+                },
+
+                {
+                    "id": "Depuis le clavier",
+                    "value": "10",
+                    "parent":"Autres jeux de COURSE"
+
+                },
+
+                {
+                    "id": "Depuis la souris",
+                    "value": "10",
+                    "parent":"WarCraft III"
+
+                },
+
+                {
+                    "id": "Depuis le clavier",
+                    "value": "10",
+                    "parent":"WarCraft III"
+
+                },
+
+                {
+                    "id": "Depuis la souris",
+                    "value": "10",
+                    "parent":"Starcraft 2"
+
+                },
+
+                {
+                    "id": "Depuis le clavier",
+                    "value": "10",
+                    "parent":"Starcraft 2"
+
+                },
+
+                {
+                    "id": "Depuis la souris",
+                    "value": "10",
+                    "parent":"Command & Conquer : Red Alert 2"
+
+                },
+
+                {
+                    "id": "Depuis le clavier",
+                    "value": "10",
+                    "parent":"Command & Conquer : Red Alert 2"
+
+                },
+
+                {
+                    "id": "Depuis la souris",
+                    "value": "10",
+                    "parent":"Crusader Kings II"
+
+                },
+
+                {
+                    "id": "Depuis le clavier",
+                    "value": "10",
+                    "parent":"Crusader Kings II"
+
+                },
+
+                {
+                    "id": "Depuis la souris",
+                    "value": "10",
+                    "parent":"Age of Empires"
+
+                },
+
+                {
+                    "id": "Depuis le clavier",
+                    "value": "10",
+                    "parent":"Age of Empires"
+
+                },
+
+                {
+                    "id": "Depuis la souris",
+                    "value": "10",
+                    "parent":"Homeworld"
+
+                },
+
+                {
+                    "id": "Depuis le clavier",
+                    "value": "10",
+                    "parent":"Homeworld"
+
+                },
+
+                {
+                    "id": "Depuis la souris",
+                    "value": "10",
+                    "parent":"Total War"
+
+                },
+
+                {
+                    "id": "Depuis le clavier",
+                    "value": "10",
+                    "parent":"Total War"
+
+                },
+
+                {
+                    "id": "Depuis la souris",
+                    "value": "10",
+                    "parent":"Civilization"
+
+                },
+
+                {
+                    "id": "Depuis le clavier",
+                    "value": "10",
+                    "parent":"Civilization"
+
+                },
+
+                {
+                    "id": "Depuis la souris",
+                    "value": "10",
+                    "parent":"Autres jeux de Gestion/Wargame"
+
+                },
+
+                {
+                    "id": "Depuis le clavier",
+                    "value": "10",
+                    "parent":"Autres jeux de Gestion/Wargame"
+
+                },
+
+                {
+                    "id": "Depuis la souris",
+                    "value": "10",
+                    "parent":"Far Cry"
+
+                },
+
+                {
+                    "id": "Depuis le clavier",
+                    "value": "10",
+                    "parent":"Far Cry"
+
+                },
+
+                {
+                    "id": "Depuis la souris",
+                    "value": "10",
+                    "parent":"The Outer Worlds"
+
+                },
+
+                {
+                    "id": "Depuis le clavier",
+                    "value": "10",
+                    "parent":"The Outer Worlds"
+
+                },
+
+                {
+                    "id": "Depuis la souris",
+                    "value": "10",
+                    "parent":"Death Stranding"
+
+                },
+
+                {
+                    "id": "Depuis le clavier",
+                    "value": "10",
+                    "parent":"Death Stranding"
+
+                },
+
+                {
+                    "id": "Depuis la souris",
+                    "value": "10",
+                    "parent":"Grand Theft Auto (GTA)"
+
+                },
+
+                {
+                    "id": "Depuis le clavier",
+                    "value": "10",
+                    "parent":"Grand Theft Auto (GTA)"
+
+                },
+
+                {
+                    "id": "Depuis la souris",
+                    "value": "10",
+                    "parent":"Red Dead Redemption"
+
+                },
+
+                {
+                    "id": "Depuis le clavier",
+                    "value": "10",
+                    "parent":"Red Dead Redemption"
+
+                },
+
+                {
+                    "id": "Depuis la souris",
+                    "value": "10",
+                    "parent":"Zelda"
+
+                },
+
+                {
+                    "id": "Depuis le clavier",
+                    "value": "10",
+                    "parent":"Zelda"
+
+                },
+
+                {
+                    "id": "Depuis la souris",
+                    "value": "10",
+                    "parent":"Autres jeux d'AVENTURE"
+
+                },
+
+                {
+                    "id": "Depuis le clavier",
+                    "value": "10",
+                    "parent":"Autres jeux d'AVENTURE"
+
+                },
+
+                {
+                    "id": "Depuis la souris",
+                    "value": "10",
+                    "parent":"Inside"
+
+                },
+
+                {
+                    "id": "Depuis le clavier",
+                    "value": "10",
+                    "parent":"Inside"
+
+                },
+
+                {
+                    "id": "Depuis la souris",
+                    "value": "10",
+                    "parent":"Unravel"
+
+                },
+
+                {
+                    "id": "Depuis le clavier",
+                    "value": "10",
+                    "parent":"Unravel"
+
+                },
+
+                {
+                    "id": "Depuis la souris",
+                    "value": "10",
+                    "parent":"Ori and the Blind Forest"
+
+                },
+
+                {
+                    "id": "Depuis le clavier",
+                    "value": "10",
+                    "parent":"Ori and the Blind Forest"
+
+                },
+
+                {
+                    "id": "Depuis la souris",
+                    "value": "10",
+                    "parent":"Devil May Cry 5"
+
+                },
+
+                {
+                    "id": "Depuis le clavier",
+                    "value": "10",
+                    "parent":"Devil May Cry 5"
+
+                },
+
+                {
+                    "id": "Depuis la souris",
+                    "value": "10",
+                    "parent":"Dead Cells"
+
+                },
+
+                {
+                    "id": "Depuis le clavier",
+                    "value": "10",
+                    "parent":"Dead Cells"
+
+                },
+
+                {
+                    "id": "Depuis la souris",
+                    "value": "10",
+                    "parent":"Owlboy"
+
+                },
+
+                {
+                    "id": "Depuis le clavier",
+                    "value": "10",
+                    "parent":"Owlboy"
+
+                },
+
+                {
+                    "id": "Depuis la souris",
+                    "value": "10",
+                    "parent":"Trine 4:The Nightmare Prince"
+
+                },
+
+                {
+                    "id": "Depuis le clavier",
+                    "value": "10",
+                    "parent":"Trine 4:The Nightmare Prince"
+
+                },
+
+                {
+                    "id": "Depuis la souris",
+                    "value": "10",
+                    "parent":"Blasphemous"
+
+                },
+
+                {
+                    "id": "Depuis le clavier",
+                    "value": "10",
+                    "parent":"Blasphemous"
+
+                },
+
+                {
+                    "id": "Depuis la souris",
+                    "value": "10",
+                    "parent":"Autres jeux de PLATEFORME"
+
+                },
+
+                {
+                    "id": "Depuis le clavier",
+                    "value": "10",
+                    "parent":"Autres jeux de PLATEFORME"
+
+                },
+
+                                       
+            ]
+    },
+
+    "line 6":
+
+    {
+        "value": "6",
+        "qtext": "Quel est votre objectif en tant que joueur ?",
+        "qMulti": [
+            {
+                "qtext":"Quel est votre objectif en tant que joueur ?",
+                "parent":"Gaming" 
+            },
+            
+            {
+                "qtext": "Prévoyez-vous des déplacements avec votre souris d'ordinateur ?",
+                "parent":["Professionnel","Loisir / Famille","Médical"]
+            },
+
+           
+            
+          ],
+
+
+        "answers": 
+            [
+                
+                
+                {
+                    "id": "Oui",
+                    "value": "1",
+                    "parent":["Professionnel","Loisir / Famille","Médical"]
+                },
+
+                {
+                    "id": "Non",
+                    "value": "1",
+                    "parent":["Professionnel","Loisir / Famille","Médical"]
+                },
+
+                {
+                    "id": "Ponctuellement",
+                    "value": "1",
+                    "parent":["Professionnel","Loisir / Famille","Médical"]
+                },
+                
+                {
+                    "id": "Découverte",
+                    "value": "1",
+                    "parent":"Gaming"
+                    
+                },
+
+                {
+                    "id": "Maintien et progression",
+                    "value": "1",
+                    "parent":"Gaming"
+                    
+                    
+                },
+
+                {
+                    "id": "Classement / eSport",
+                    "value": "1",
+                    "parent":"Gaming"
+                    
+                    
+                }
+
+                            
+                           
+            ]
+    },
+
+
+    "line 7":
+
+    {
+        "value": "7",
+        "qtext": "A quel type de main doit-être adaptée votre souris d'ordinateur ?",
+        "answers": 
+            [
+                {
+                    "id": "Droitier",
+                    "value": "1",
+                },
+
+                {
+                    "id": "Gaucher",
+                    "value": "1",
+                },
+
+                {
+                    "id": "Ambidextre",
+                    "value": "1",
+                }
+
+                            
+                           
+            ]
+    },
+
+    "line 8":
+
+    {
+        "value": "8",
+        "qtext": "Quelle est la taille de votre main ?",
+        "answers": 
+            [
+                {
+                    "id": "Petite",
+                    "value": "1",
+                },
+
+                {
+                    "id": "Moyenne",
+                    "value": "1",
+                    
+                },
+
+                {
+                    "id": "Grande",
+                    "value": "1",
+                     
+                }
+
+                            
+                           
+            ]
+    },
+
+    "line 9":
+
+    {
+
+        "value": "9",
+        
+        "qMulti": [
+            {
+                "qtext":"Quelle est votre prise naturel de la souris ?",
+                "parent":["Gaming","Professionnel","Loisir / Famille"]
+            },
+            
+            {
+                "qtext": "Quelle type de Souris souhaitez-vous ?",
+                "parent":["Médical"]
+            }
+        ],
+
+        "answers": 
+            [
+                {
+                    "id": "La Prise par la paume (Palm Grip)",
+                    "value": ["Gaming","Professionnel","Loisir / Famille"],
+                    
+                },
+
+                {
+                    "id": "La Prie en Serres (Claw Grip)",
+                    "value": ["Gaming","Professionnel","Loisir / Famille"],
+                    
+                },
+
+                {
+                    "id": "La prise du bout des doigts (Fingertip Grip)",
+                    "value": ["Gaming","Professionnel","Loisir / Famille"],
+ 
+                }
+
+                {
+                    "id": "Souris Ergonomique",
+                    "value": ["Médical"],
+ 
+                }
+
+                {
+                    "id": "Souris Ergonomique Verticale",
+                    "value": ["Médical"],
+ 
+                }
+
+                {
+                    "id": "Souris Trackball",
+                    "value": ["Médical"],
+ 
+                }
+
+                            
+                           
+            ]
+    }
+
+}
